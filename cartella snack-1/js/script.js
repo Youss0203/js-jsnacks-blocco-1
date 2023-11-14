@@ -1,5 +1,5 @@
-const primaPersona = prompt("scrivi la tua età");
-const secondaPersona = prompt("scrivi la tua età");
+const primaPersona = parseInt(prompt("scrivi la tua età"));
+const secondaPersona = parseInt(prompt("scrivi la tua età"));
 
 if (primaPersona > secondaPersona){
     console.log("scrivi che prima persona è più grande", primaPersona)
