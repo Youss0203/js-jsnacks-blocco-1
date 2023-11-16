@@ -4,14 +4,12 @@
 
  const newArray = [];
 
- const userFirstNumber = parseInt(prompt("inserisci un numero"));
- const userSecondNumber = parseInt(prompt("inserisci un numero"));
- const userThirdNumber = parseInt(prompt("inserisci un numero"));
- const userFourthNumber = parseInt(prompt("inserisci un numero"));
- const userFifthNumber = parseInt(prompt("inserisci un numero"));
- const userSixthNumber = parseInt(prompt("inserisci un numero"));
+for(let i = 0; i<=6;i++){
+    const numero=parseInt(prompt("scrivi un numero"))
 
-
-
-
+ 
+}
 console.log(newArray)
+
+
+
