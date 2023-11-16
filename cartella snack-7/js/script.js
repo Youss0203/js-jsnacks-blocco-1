@@ -4,11 +4,15 @@
 
  const newArray = [];
 
+ 
 for(let i = 0; i<=6;i++){
     const numero=parseInt(prompt("scrivi un numero"))
 
+    if(numero%2 !=0){
+        newArray.push(numero)}
  
 }
+
 console.log(newArray)
 
 

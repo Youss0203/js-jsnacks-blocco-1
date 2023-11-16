@@ -14,12 +14,12 @@ const listaInvitati = [
 
 
 const nomeInvitato = prompt("scrivi il tuo nome")
+let risposta = false;
 
 
 for(let i = 0; i < listaInvitati.length; i++){
-    if(nomeInvitato==listaInvitati){
-        console.log("puoi entrare alla festa")
-    }else{
-        console.log("tornatene a casa")
+    if(nomeInvitato==listaInvitati[i]){
+        risposta = true
     }
 }
+console.log(risposta)
