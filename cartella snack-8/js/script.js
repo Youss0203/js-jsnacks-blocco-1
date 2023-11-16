@@ -4,4 +4,3 @@ le cifre che compongono il numero.*/
 const userNumber = parseInt(prompt("scrivi un numero che contenga 7 cifre"))
 
 
-const cifra= cifra
