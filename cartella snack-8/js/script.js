@@ -7,8 +7,8 @@ const userNumber =prompt("scrivi un numero che contenga 7 cifre")
 const myNumber= userNumber.split("")
 let somma=0
 for(let i = 0; i< myNumber.length ;i++){
-    myNumber[i] = parseInt(myNumber[i])
-    somma += myNumber[i]; 
+   
+    somma = somma + parseInt(myNumber[i]); 
 }
 console.log(somma)
 
